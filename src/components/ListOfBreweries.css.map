@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,eAAe,EAAE,QAAQ;EAEzB,OAAO,EAAE,GAAG;EACZ,MAAM,EAAE,IAAI;CAef;;AAnBD,AAeI,KAfC,CAeD,EAAE,EAfN,KAAK,CAeG,EAAE,CAAC;EACH,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "ListOfBreweries.scss"
+    ],
+    "names": [],
+    "file": "ListOfBreweries.css"
+}
