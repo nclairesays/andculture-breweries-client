@@ -8,17 +8,15 @@ import { BrowserRouter as Router, Route, Link, Redirect, Switch } from "react-ro
 function App() {
 	return (
 		<Router>
-			<div>
-				<nav>
-					<Link to="/">Home</Link>
-				</nav>
+			<nav>
+				<Link to="/">Home</Link>
+			</nav>
 			<Switch>
 				<Route exact path="/" render={() =>  <Redirect to='/breweries' />}/>
-				<Route path="/breweries/:id" component={BreweryDetails} />
+				<Route path="/breweries/:id" render={(props) => <BreweryDetails {...props}/>} />
 				<Route path="/breweries" component={ListOfBreweries} />
 			</Switch>
-		</div>
-    </Router>
+   	 	</Router>
 	);
 }
 

@@ -18,7 +18,7 @@ export default class ListOfBreweries extends Component {
 	showBreweries = (breweries) => (
 		// console.log(this.props.match)
 		breweries.length !== 0
-		? breweries.map( brewery => <Brewery {...brewery} key={brewery.id} match={this.props.match}/>)
+		? breweries.map( brewery => <Brewery {...brewery} key={brewery.id} />)
 		: null
 	)
 
