@@ -1,6 +1,5 @@
 import React from 'react';
 import './BreweryRow.scss'
-// import BreweryDetails from './BreweryDetails';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, Route } from 'react-router-dom'

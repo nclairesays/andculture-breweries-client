@@ -1,6 +1,6 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react';
-import Marker from '../presentational/Marker'
+import Marker from './Marker'
 import './BreweryDetails.scss'
 
 const BreweryDetails = (props) => {

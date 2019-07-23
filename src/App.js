@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import ListOfBreweries from './components/ListOfBreweries';
-import BreweryDetails from './components/BreweryDetails'
+import BreweryDetails from './presentational/BreweryDetails'
 import { BrowserRouter as Router, Route, Link, Redirect, Switch } from "react-router-dom";
 
 function App() {

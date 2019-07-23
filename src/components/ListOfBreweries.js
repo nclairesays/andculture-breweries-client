@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BreweryRow from './BreweryRow';
+import BreweryRow from '../presentational/BreweryRow';
 import { api } from '../constants'
 import './ListOfBreweries.scss'
 
