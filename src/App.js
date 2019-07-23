@@ -4,7 +4,6 @@ import ListOfBreweries from './components/ListOfBreweries';
 import BreweryDetails from './components/BreweryDetails'
 import { BrowserRouter as Router, Route, Link, Redirect, Switch } from "react-router-dom";
 
-
 function App() {
 	return (
 		<Router>
