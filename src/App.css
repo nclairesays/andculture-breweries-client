@@ -1,5 +1,11 @@
-.app {
-  width: 90%;
-  margin: auto;
+nav {
+  background-color: white;
+  text-align: center;
+  font-size: 2em;
+  padding: .5em;
+}
+
+nav a {
+  color: #ffc44f;
 }
 /*# sourceMappingURL=App.css.map */

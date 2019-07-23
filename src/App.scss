@@ -1,4 +1,13 @@
-.app {
-  width: 90%;
-  margin: auto;
+@import './variables';
+
+nav {
+  background-color: white;
+  text-align:  center;
+  font-size: 2em;
+  padding: .5em;
+
+  a {
+    color: $link;
+  }
+
 }

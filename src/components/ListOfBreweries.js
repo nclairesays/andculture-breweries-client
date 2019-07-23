@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Brewery from './Brewery';
+import BreweryRow from './BreweryRow';
 import { api } from '../constants'
 import './ListOfBreweries.scss'
 
@@ -16,16 +16,15 @@ export default class ListOfBreweries extends Component {
 	}
 
 	showBreweries = (breweries) => (
-		// console.log(this.props.match)
 		breweries.length !== 0
-		? breweries.map( brewery => <Brewery {...brewery} key={brewery.id} />)
+		? breweries.map( brewery => <BreweryRow {...brewery} key={brewery.id} />)
 		: null
 	)
 
 	render() {
 		const { breweries } = this.state
 		return (
-			<table>
+			<table className={'list-of-breweries'}>
 				<thead>
 					<tr>
 						<th>Name</th>

@@ -1,11 +1,33 @@
 table {
   border-collapse: collapse;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
   padding: 2em;
   margin: auto;
+  width: 80%;
+  text-align: left;
 }
 
 table th, table td {
-  padding: 15px;
-  text-align: left;
+  padding: 14px;
+}
+
+table tr:nth-child(even) {
+  background-color: #ffc44f;
+}
+
+table tr:nth-child(odd) {
+  color: black;
+  background-color: #f2f2f2;
+}
+
+table th {
+  background-color: #594f4d;
+  color: white;
+}
+
+table a {
+  color: black;
+  text-decoration: none;
 }
 /*# sourceMappingURL=ListOfBreweries.css.map */
