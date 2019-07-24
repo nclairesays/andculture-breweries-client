@@ -21,7 +21,11 @@ table tr:nth-child(odd) {
   background-color: #e0dfdf;
 }
 
-table th {
+table thead {
+  border-bottom: 2px solid white;
+}
+
+table thead th {
   background-color: #594f4d;
   color: white;
 }
