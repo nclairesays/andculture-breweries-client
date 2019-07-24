@@ -1,4 +1,8 @@
 .brewery {
   padding: 1.5em;
 }
+
+.brewery td a:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=BreweryRow.css.map */

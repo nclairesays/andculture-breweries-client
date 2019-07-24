@@ -1,9 +1,10 @@
 import React from 'react';
-import './BreweryRow.scss'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link, Route } from 'react-router-dom'
 import BreweryDetails from './BreweryDetails';
+import '../styles/BreweryRow.scss'
+
 
 
 const BreweryRow = (brewery) => {

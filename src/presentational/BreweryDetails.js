@@ -1,7 +1,7 @@
 import React from 'react'
 import GoogleMapReact from 'google-map-react';
 import Marker from './Marker'
-import './BreweryDetails.scss'
+import '../styles/BreweryDetails.scss'
 
 const BreweryDetails = (props) => {
 
@@ -34,8 +34,11 @@ const BreweryDetails = (props) => {
             </GoogleMapReact>
         : "no map, no longitude/latitude"
         }
-        
       </div>
+      <p>
+        Disclaimer: If using the Rails API, the address, longitude, and latitude are randomly generated using the Faker gem. <br />
+        To change api to OpenBreweryDB API, check the src/constants.js file.
+      </p>
     </div>
   )
 }

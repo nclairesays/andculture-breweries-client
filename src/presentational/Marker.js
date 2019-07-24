@@ -1,5 +1,5 @@
 import React from 'react'
-import './Marker.scss'
+import '../styles/Marker.scss'
 
 const Marker = () => {
 

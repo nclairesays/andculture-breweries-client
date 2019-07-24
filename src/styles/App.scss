@@ -1,4 +1,4 @@
-@import './variables';
+@import './_variables';
 
 nav {
   background-color: white;
@@ -9,5 +9,4 @@ nav {
   a {
     color: $primary-color;
   }
-
 }

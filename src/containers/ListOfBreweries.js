@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import BreweryRow from '../presentational/BreweryRow';
 import { api } from '../constants'
-import './ListOfBreweries.scss'
+import '../styles/ListOfBreweries.scss'
 
 export default class ListOfBreweries extends Component {
 	state = {
@@ -9,8 +9,8 @@ export default class ListOfBreweries extends Component {
 	};
 
 	componentDidMount() {
-		//cities in database: Portland, Asheville, Bend, and Boulder
-		fetch(`${api}?by_city=portland`)
+		//cities in rails database: Portland, Asheville, Bend, and Boulder
+		fetch(`${api}?by_city=bend`)
 		.then(res => res.json())
 		.then(breweries => this.setState({ breweries }));
 	}

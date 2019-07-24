@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,KAAK;CAIjB;;AALD,AAEI,QAFI,CAEJ,EAAE,CAAC,CAAC,AAAA,MAAM,CAAC;EACP,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "BreweryRow.scss"
+    ],
+    "names": [],
+    "file": "BreweryRow.css"
+}
